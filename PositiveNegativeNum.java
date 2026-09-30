@@ -1,15 +1,18 @@
-package CompletePractise;
+package Practise;
 
-public class PositiveNegativeNum {
+public class IfElseIF {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num=-2;
+		//Find the positive Negative number 
+		int num=0;
 		if(num>0)
-			System.out.println("Num is positive");
-		else
-			System.out.println("Num is Negative");
-
+			System.out.println("Positive Num");
+		else if(num<0)
+			System.out.println("Negative num");
+		else 
+			System.out.println("Whole Num");
+			
 	}
 
 }
